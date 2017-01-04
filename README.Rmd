@@ -2,7 +2,8 @@
 title: "README.Rmd"
 author: "Lisa Wei"
 date: '2017-01-04'
-output: github_document
+output: 
+  github_document:
 ---
 
 ```{r setup, include=FALSE}

@@ -1,4 +1,4 @@
-README.md
+README.Rmd
 ================
 Lisa Wei
 2017-01-04

@@ -3,6 +3,7 @@ title: "README.md"
 author: "Lisa Wei"
 date: '2017-01-04'
 output: github_document
+  dev: png
 ---
 
 ```{r setup, include=FALSE}

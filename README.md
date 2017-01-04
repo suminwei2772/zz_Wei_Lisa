@@ -1,4 +1,4 @@
-README.Rmd
+practice\_stat540
 ================
 Lisa Wei
 2017-01-04

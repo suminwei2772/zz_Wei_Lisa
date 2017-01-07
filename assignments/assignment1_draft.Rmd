@@ -68,8 +68,7 @@ Tooth<-read.table("https://raw.githubusercontent.com/STAT540-UBC/STAT540-UBC.git
 library(lattice)
 xyplot(len~dose|supp, ToothGrowth, main="Effect of Dosage and Supplement Type on Tooth Length", ylab="Length", xlab="Dose")
 
-#histogram(~len|factor(supp),data=ToothGrowth,
-          main="Variation in Length by Supplement",xlab="Length")
+#histogram(~len|factor(supp),data=ToothGrowth,main="Variation in Length by Supplement",xlab="Length")
 ```
 The first graph I chose to present everything in the data as it is. I believe this is the most informative way as it doesn't hide anything or make any assumptions about the data.
 

@@ -30,10 +30,10 @@ length(adult.females)
 ```
 
 # 2.2  Survival 
-  + Question 1
-
-``` {r survival}
-child = Titanic[which(Titanic$Age =="Child"),]
+ + Question 1
+ 
+``` {r survival1}
+child <- Titanic[which(Titanic$Age =="Child"),]
 adult <- Titanic[which(Titanic$Age=="Adult"),]
 
 ## Children survival rate 
@@ -46,7 +46,7 @@ length(which(adult$Survived=="Yes"))/nrow(adult)
 * Answer: Survival rates for both adult and child are the same
 
   + Question 2
-``` {r survival}
+``` {r survival2}
 first <- Titanic[which(Titanic$Class=="1st"),]
 second <- Titanic[which(Titanic$Class=="2nd"),]
 third <- Titanic[which(Titanic$Class=="3rd"),]

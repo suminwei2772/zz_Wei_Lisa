@@ -1,7 +1,7 @@
 ---
 title: "Stat540_assignment1"
 author: "Lisa Wei"
-date: '2017-01-06'
+date: '2017-01-06' 
 output: html_document
 ---
 

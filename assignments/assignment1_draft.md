@@ -3,7 +3,7 @@ Stat540\_assignment1
 Lisa Wei
 2017-01-06
 
-\*\* 2.1 Passenger breakdown
+\*\* 2.1 Passenger breakdown \*\*
 
 ``` r
 ## Converting Titanic array into data frame
@@ -40,7 +40,7 @@ length(adult.females)
 
     ## [1] 8
 
-\*\* 2.2 Survival
+\*\* 2.2 Survival \*\*
 
 ``` survival
 child = Titanic[which(Titanic$Age =="Child"),]

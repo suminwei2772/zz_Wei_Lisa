@@ -47,9 +47,21 @@ length(adult.females)
 2.2 Survival
 ============
 
-``` survival
+``` r
 child = Titanic[which(Titanic$Age =="Child"),]
-length(which(child$Survived=="No"))/nrow(child)
+adult <- Titanic[which(Titanic$Age=="Adult"),]
+
+## Children survival rate 
+length(which(child$Survived=="Yes"))/nrow(child)
 ```
 
-\`\`\`
+    ## [1] 0.5
+
+``` r
+## Adult survival rate
+length(which(adult$Survived=="Yes"))/nrow(adult)
+```
+
+    ## [1] 0.5
+
+-   Answer: Survival rates for both adult and child are the same

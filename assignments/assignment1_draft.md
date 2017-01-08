@@ -110,15 +110,9 @@ Data Visualization
 Tooth<-read.table("https://raw.githubusercontent.com/STAT540-UBC/STAT540-UBC.github.io/master/homework/practice_assignment/guinea_pigs_tooth_growth.txt")
 
 library(lattice)
-xyplot(len~dose|supp, ToothGrowth, main="Effect of Dosage and Supplement Type on Tooth Length", ylab="Length", xlab="Dose")
+xyplot(len~dose|supp, ToothGrowth, main="Effect of Dosage and Supplement Type on Tooth Length", group=supp, grid=TRUE,ylab="Length", xlab="Dose")
 ```
 
-![](assignment1_draft_files/figure-markdown_github/toothgrowth-1.png)
-
-``` r
-#histogram(~len|factor(supp),data=ToothGrowth,main="Variation in Length by Supplement",xlab="Length")
-```
-
-The first graph I chose to present everything in the data as it is. I believe this is the most informative way as it doesn't hide anything or make any assumptions about the data.
+![](assignment1_draft_files/figure-markdown_github/toothgrowth-1.png) The first graph I chose to present everything in the data as it is. I believe this is the most informative way as it doesn't hide anything or make any assumptions about the data.
 
 The result is suggesting that the length of tooth increases with increasing dose, for both supplement types, though there is much variability in the tooth length

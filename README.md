@@ -6,7 +6,7 @@ Lisa Wei
 R Markdown
 ----------
 For assignment 1, go to [Assignment 1 answers.](assignments/assignment1_draft.md
-For an example of html pretty file, go to http://htmlpreview.github.io/?https://raw.githubusercontent.com/STAT540-UBC/STAT540-UBC.github.io/master/homework/paper_critique/paperReviewMarjan.html
+For an example of html pretty file, go to http://htmlpreview.github.io/?https://raw.github.com/stat540-2014-bryan-jennifer-hw/hw01/stat540-2014-bryan-jennifer-hw01.html.
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 

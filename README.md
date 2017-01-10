@@ -5,7 +5,7 @@ Lisa Wei
 
 R Markdown
 ----------
-For assignment 1, go to [Assignment1 Responses](assignments/README.md)
+For assignment 1, go to [Assignment 1 answers.](assignments/assignment1_draft.md)
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
